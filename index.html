@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Computer Engineering & Computer Science Portfolio of Samuel Leau" />
+  <title>Samuel Leau | CE/CS Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preload" href="css/critical.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/critical.css"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <span class="logo-text">Samuel Leau</span>
+        <span class="logo-tagline">Aspiring Computer Engineer</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span class="hamburger"></span></button>
+      <nav class="nav" role="navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#highlights" class="nav-link">Highlights</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero" aria-label="Introduction">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="typing-text">Hi, I'm <span class="text-gradient">Samuel Leau</span></span>
+          <span class="cursor">|</span>
+        </h1>
+        <h2 class="hero-subtitle typing-text-2">Computer Engineering Student</h2>
+        <p class="hero-description typing-text-3">I'm a passionate Computer Engineering student who likes building smart innovative tech solutions benefitting peoples day to day lives.</p>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary">More About Me</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <span>Scroll Down</span>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div class="hero-bg" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="images/me.jpg" alt="Samuel Leau" loading="lazy">
+            <div class="image-border"></div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="about-intro">
+            <h3>Hello! I'm <span class="text-gradient">Samuel Leau</span></h3>
+            <p>Aspiring CE/CS student focused on embedded systems, IoT, and applied AI. I design efficient systems that connect silicon with software.</p>
+            <ul id="description">
+                    <li> 
+                        I am an aspiring computer engineer passionate about developing smart solutions that improve daily life efficiency.
+                        <i class="fas fa-laptop-code icon" style="color: rgb(0, 110, 255);"></i>
+                    </li>
+                    <li> 
+                        I am eager to expand my coding skills by exploring new programming languages in my free time.
+                        <i class="fas fa-code-branch icon" style="color: rgb(18, 196, 18);"></i>
+                    </li>
+                    <li>
+                        I am a strong team player, as shown through my past group projects.
+                        <i class="fas fa-users icon" style="color: rgb(116, 18, 196);"></i> 
+                    </li>
+                    <li>
+                        I am curious about the world and enjoy traveling to gain new perspectives.
+                        <i class="fas fa-plane-departure icon" style="color: rgb(219, 21, 21);"></i> 
+                    </li>
+                    <li>
+                        I am active in sports, with experiences in Taekwondo, Bowling, and Badminton.
+                        <i class="fas fa-bowling-ball icon" style="color: rgb(219, 150, 21);"></i> 
+                    </li>
+                </ul>
+          </div>
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="#" class="btn btn-secondary">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights (concise academics and facts) -->
+  <section id="highlights" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">At a Glance</span>
+        <h2 class="section-title">Profile Highlights</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="achievement-card">
+          <h3 style="margin-bottom:.35rem;color:var(--accent)">Academics</h3>
+          <p><strong>Your School / College</strong></p>
+          <p class="project-description">Relevant: Physics, Mathematics, Computing · Strong grades</p>
+          <ul class="timeline-description">
+            <li>CS: Algorithms, Discrete Math, OS, Databases, ML (Intro)</li>
+            <li>CE: Digital Logic/HDL, Architecture, Embedded C/C++, Networks/IoT</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h3 style="margin-bottom:.35rem;color:var(--accent)">Certifications</h3>
+          <ul class="timeline-description">
+            <li>Oracle Cloud Infrastructure 2025 Foundations Associate</li>
+            <li>Talent Pavilion FinTech 101 Course </li>
+            <li>Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h3 style="margin-bottom:.35rem;color:var(--accent)">Quick Facts</h3>
+          <ul class="timeline-description">
+            <li>Interests: IoT, Embedded Systems, AI, Robotics</li>
+            <li>Tools: Git, Linux, MATLAB</li>
+            <li>Seeking: CE/CS undergraduate admission</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Selected Work</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" role="button" tabindex="0"
+          aria-label="Open project details"
+          data-title="IoT Workplace Safety Monitor"
+          data-description="
+          <h3><strong>Project Deliverables: </strong></h3><u1>
+            <li>Able to track location of asset and paitents thorugh the monitoring of the 2d/ 3d model display</li>
+            <li>Able to know paitent has fallen down thorugh the monitoring of the 2d/ 3d model display</li>
+            <li>Able to monitor differnet agriculture conditions in remote areas through the dashboard</li>
+            <li>Flask app is able to check the connection status of each nodes and allowing the change the name of the node when getting repositioned </li></u1>"
+          data-tools="Arduino, C++, Linux,Python, Xiao Seeed nrf52840, ESP32-S3, Raspberry Pi, TinyUSB, WebSockets, Advantec Wise-IoT Suite"
+          data-images="images/mp/hardware.png|images/mp/system_diagram.png|images/mp/2d_3d_model.png|images/mp/config.png|images/mp/dashboard.png|images/mp/flask.png|images/mp/hardware_circuit.png|images/mp/hardware_circuit2.png">
+          <div class="project-image">
+            <img src="images/mp/hardware.png" alt="IoT Workplace Safety Monitor" loading="lazy" />
+            <div class="project-links"><span class="project-link"><i class="fas fa-search-plus"></i> Details</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">IoT Mesh System Applications</h3>
+            <p class="project-description">End-to-end IoT system detecting hazards with ultrasonic sensors and triggering alerts. Includes firmware, gateway, and real-time dashboard.</p>
+            <div class="project-tags"><span class="tag">Arduino</span><span class="tag">MQTT</span><span class="tag">FastAPI</span><span class="tag">Advantec</span><span class="tag">Linux</span></div>
+            <p class="project-date">Oct 2024 – Feb 2025</p>
+          </div>
+        </article>
+        <article class="project-card" role="button" tabindex="0"
+          aria-label="Open project details"
+          data-title="Internship Sharing Mobile App"
+          data-description="<h3><strong>Project Deliverables: </strong></h3><u1>
+            <li>Fully functioning photo uploading function</li>
+            <li>Fully functioning real-time chat function allowing users to send, edit and delete their messages</li>
+            <li>Fully functioning admin role and system </li>
+            <li>Utilized PHP to send data to MySQL for proper data storage</li>
+            <li>CRUD functions are working properly</li>
+            <li>Styled the mobile application with Material Design 3 and Google Andriod Materials</li></u1>"
+          data-tools="Andriod Studio, Java, PHP, MySQL"
+          data-date="Oct 2024 – Feb 2025"
+          data-github="https://github.com/samuelleau/IntershipSharingApp"
+          data-images="images/mdad/home.png|images/mdad/communities.png |images/mdad/chat.png|images/mdad/create.png|images/mdad/account.png|images/mdad/user_stats.png|images/mdad/create_staff.png|images/mdad/create_post_staff.png|images/mdad/industries.png|images/mdad/account_staff.png">
+          <div class="project-image">
+            <img src="images/mdad/icon.png" alt="Internship Sharing Mobile App" loading="lazy" />
+            <div class="project-links"><span class="project-link"><i class="fas fa-search-plus"></i> Details</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Internship Sharing Mobile App</h3>
+            <p class="project-description">A mobile app for students to share internship experiences, connect with campus communities, and engage with like-minded peers.</p>
+            <div class="project-tags"><span class="tag">Andriod Studio</span><span class="tag">Java</span><span class="tag">PHP</span><span class="tag">MySQL</span></div>
+            <p class="project-date">Oct 2024 – Feb 2025</p>
+          </div>
+        </article>
+        <article class="project-card" role="button" tabindex="0"
+          aria-label="Open project details"
+          data-title=" Sell & Swap Website"
+          data-description="<h3><strong>Project Deliverables: </strong></h3><u1>
+            <li>User Input Data is stored in SQL Server properly</li>
+            <li>CRUD functions are working properly</li>
+            <li>Fully functioning chat function</li>
+            <li>User can select product photo for their listing from their local device file storage</li></u1>"
+          data-tools=".Net, HTML, C#, CSS, JavaScript, SQL"
+          data-github="https://github.com/samuelleau/SellSwapPE02"
+          data-images="images/fullsd/fullsd_home.png|images/fullsd/fullsd_buy.png |images/fullsd/fullsd_chat.png|images/fullsd/fullsd_create.png|images/fullsd/fullsd_offer_history.png|images/fullsd/fullsd_approve_reject.png">
+          <div class="project-image">
+            <img src="images/fullsd/icon.png" alt="Sell & Swap" loading="lazy" />
+            <div class="project-links"><span class="project-link"><i class="fas fa-search-plus"></i> Details</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Sell & Swap Website</h3>
+            <p class="project-description">A full stack website for people to sell and trade products</p>
+            <div class="project-tags"><span class="tag">Andriod Studio</span><span class="tag">Java</span><span class="tag">PHP</span><span class="tag">MySQL</span></div>
+            <p class="project-date">Oct 2023 – Feb 2024</p>
+          </div>
+        </article>
+        <article class="project-card" role="button" tabindex="0"
+          aria-label="Open project details"
+          data-title="Smart Home IoT System"
+          data-description="<h3><strong>Project Deliverables: </strong></h3><u1>
+            <li>Flask App is able to control the room light and adjust fan speed</li>
+            <li>Gafarna for data visualisation</li>
+            <li>Deployed MQTT for real-time monitoring of temperature and humidity</li></u1>"
+          data-tools="Flask, Raspberry Pi, Linux, Python, MQTT, Gafarna"
+          data-images="images/iotp/full_circuit.jpg|images/iotp/circuit.png |images/iotp/system_diagram.png|images/iotp/flask_app.png|images/iotp/mqtt.png|images/iotp/dashboard.png">
+          <div class="project-image">
+            <img src="images/iotp/full_circuit.jpg" alt="Smart Home" loading="lazy" />
+            <div class="project-links"><span class="project-link"><i class="fas fa-search-plus"></i> Details</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Smart Home IoT System</h3>
+            <p class="project-description">A smart home system that allows the users to connect to control their household items remotely and accessibly</p>
+            <div class="project-tags"><span class="tag">Flask</span><span class="tag">Raspberry Pi</span><span class="tag">Linux</span><span class="tag">Python</span></div>
+            <p class="project-date">Oct 2023 – Feb 2024</p>
+          </div>
+        </article>
+        <article class="project-card" role="button" tabindex="0"
+          aria-label="Open project details"
+          data-title="Artifical Intelligence Marchine Learning (Image Regconition)"
+          data-description="<h3><strong>Project Deliverables: </strong></h3><u1>
+            <li>Trained 2 different model for comparison (CNN 2D model and VGG)</li>
+            <li>Model is able to predict with 89% (close to 90%) confidence level</li>
+            <li>Deployed Image classification API services to deloy the trained model in a flask app</li></u1>"
+          data-tools="Python, Jupyter Notebook, Flask, Python"
+          data-images="images/aiml/full_circuit.jpg|images/iotp/circuit.png |images/iotp/system_diagram.png|images/iotp/flask_app.png|images/iotp/mqtt.png|images/iotp/dashboard.png">
+          <div class="project-image">
+            <img src="images/aiml/aiml_icon.png" alt="AIML icon" loading="lazy" />
+            <div class="project-links"><span class="project-link"><i class="fas fa-search-plus"></i> Details</span></div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Artifical Intelligence Marchine Learning (Image Regconition)</h3>
+            <p class="project-description">A AI model trained to be able to recognise and predict differen type of birds</p>
+            <div class="project-tags"><span class="tag">Python</span><span class="tag">Jupyter Notebook</span><span class="tag">Flask</span><span class="tag">Python</span></div>
+            <p class="project-date">Oct 2023 – Feb 2024</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Details Modal (with gallery) -->
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="modal"></div>
+    <div class="modal-dialog" role="document" aria-labelledby="project-modal-title">
+      <button class="modal-close" aria-label="Close details" data-close="modal"><i class="fas fa-times"></i></button>
+      <div class="modal-media">
+        <button class="carousel-btn prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <img id="project-modal-image" alt="Project image" />
+        <button class="carousel-btn next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="modal-body">
+        <h3 id="project-modal-title"></h3>
+        <p id="project-modal-description" class="project-description"></p>
+        <div class="project-tags" id="project-modal-tools"></div>
+        <p id="project-modal-date" class="project-date"></p>
+        <div class="modal-actions">
+          <a id="project-modal-link" class="btn btn-primary" target="_blank" rel="noopener" href="#">Live Demo</a>
+          <a id="project-modal-github" class="btn btn-primary" target="_blank" rel="noopener" href="https://github.com/samuelleau">GitHub</a>
+        </div>
+        <div class="modal-thumbs" id="project-modal-thumbs" aria-label="Image thumbnails"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Core Strengths</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><h4>Programming</h4><p>C/C++, C#, Python, JavaScript, HTML, MYSQL, PHP, WebSockets</p></div>
+        <div class="skill-card"><h4>Systems & CS</h4><p>OS, Algorithms, Databases</p></div>
+        <div class="skill-card"><h4>Hardware</h4><p>Arduino, ESP32-S3, RPi</p></div>
+        <div class="skill-card"><h4>Tools</h4><p>Git, Linux, MPLAB, Visual Studios Code, Visual Studios</p></div>
+      </div>
+      <div class="section-header">
+        <h2 class="section-title">Soft Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><h4>Problem-Solving & Critical Thinking</h4><p>Able to debug code well, create solution to solve real world problems</p></div>
+        <div class="skill-card"><h4>Collaboration & Teamwork</h4><p>Able to communicate well in group discussion for group project</p></div>
+        <div class="skill-card"><h4>Communication & Documentation</h4><p>Created Standard Operating Procedures (SOPs), presented project updates clearly, and documented technical processes for knowledge sharing.</p></div>
+        <div class="skill-card"><h4>Project & Time Management</h4><p>Coordinated vendor schedules, managed multiple tasks during internship, met project deadlines consistently.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Journey</span>
+        <h2 class="section-title">Experience</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="experience-timeline">
+        <div class="experience-item">
+          <div class="experience-date">
+            <span class="date-badge">2024</span>
+          </div>
+          <div class="experience-content">
+            <div class="experience-header">
+              <h3 class="experience-title">WET Manufacturing Intern</h3>
+              <h4 class="experience-company">Micron Technology</h4>
+              <span class="experience-location"><i class="fas fa-map-marker-alt"></i> Singapore</span>
+            </div>
+            <ul class="experience-description">
+              <li>Gained hands-on exposure to IoT sensor integration in manufacturing, supporting documentation and understanding how sensor data is used for equipment monitoring and operational efficiency</li>
+              <li>Assisted in coordinating schedules, vendor installations, and machine-related tasks to ensure smooth and efficient operations</li>
+              <li>Developed clear SOPs with step-by-step guidance to ensure consistent, efficient, and accurate task execution</li>
+              <li>Contributed to improving safety in workplace environment through systematic documentation and process improvements</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-date">
+            <span class="date-badge">2023</span>
+          </div>
+          <div class="experience-content">
+            <div class="experience-header">
+              <h3 class="experience-title">CCA Member & Leader</h3>
+              <h4 class="experience-company">Taekwondo Club</h4>
+              <span class="experience-location"><i class="fas fa-users"></i> Leadership & Teamwork</span>
+            </div>
+            <ul class="experience-description">
+              <li>Active member demonstrating commitment and continuous improvement in martial arts training</li>
+              <li>Participated in various competitions and demonstrations representing the institution</li>
+              <li>Developed discipline, leadership skills, and teamwork through regular training and event organisation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="experience-date">
+            <span class="date-badge">2022</span>
+          </div>
+          <div class="experience-content">
+            <div class="experience-header">
+              <h3 class="experience-title">Temasek Polytechnic (TP)</h3>
+            </div>
+            <ul class="experience-description">
+              <li>First started to learn coding, patching of circuits and the integration of both hardwares and softwares together.</li>
+              <li>Discovered that I have an interest in solving complex programming challenges</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+<section id="achievements" class="section bg-light">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-subtitle">Proud Moments</span>
+      <h2 class="section-title">Achievements</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="achievements-grid">
+      <!-- Achievement Card -->
+      <article class="achievement-card" role="button" tabindex="0"
+              aria-label="Open achievement details"
+              data-title="Edusave Merit Award 2025"
+              data-description="Received recognition for academic excellence and technical performance."
+              data-tech="Academic Excellence,Merit Award,2025"
+              data-thumbnails="./images/merit/merit.jpeg|./images/merit/merit_cert.jpeg"
+              data-image="./images/merit/merit.jpeg">
+        <div class="achievement-image">
+          <img src="./images/merit/merit.jpeg" alt="Award / Scholarship" loading="lazy">
+        </div>
+        <div class="achievement-content">
+          <h3 class="achievement-title">Edusave Merit Award 2025</h3>
+          <p class="achievement-description">Grateful to be recognised as the top 25% in my course.</p>
+          <span class="achievement-year">2025</span>
+        </div>
+      </article>
+
+      <article class="achievement-card" role="button" tabindex="0"
+              aria-label="Open achievement details"
+              data-title="Professional Certification"
+              data-description="Completed industry-recognized certification in AI, Cloud and FinTech fundamentals."
+              data-icon="certificate"
+              data-year="2025"
+              data-thumbnails="./images/cert/oracle_AI_cert.png |./images/cert/oracle_cloud_cert.png |./images/cert/fintech.png"
+              data-image="./images/cert/oracle_AI_cert.png ">
+        <div class="achievement-image">
+            <img src="./images/cert/oracle_AI_cert.png" alt="Award / Scholarship" loading="lazy">
+        </div>
+        <div class="achievement-content">
+          <h3 class="achievement-title">Professional Certifications</h3>
+          <p class="achievement-description">Completed multiple different industry certifications.</p>
+          <span class="achievement-year"></span>
+        </div>
+      </article>
+
+      <article class="achievement-card" role="button" tabindex="0"
+              aria-label="Open achievement details"
+              data-title="FinTech Innovators Bootcamp 2025"
+              data-description="Winner of the Syfe problem statment in FinTech Innovators Bootcamp 2025 ideathon."
+              data-icon="project"
+              data-year="Capstone Project"
+              data-thumbnails="./images/cert/group_photo.jpg |./images/cert/fintech_award.jpg"
+              data-image="./images/cert/group_photo.jpg">
+        <div class="achievement-image">
+          <img src="./images/cert/group_photo.jpg" alt="Award / Scholarship" loading="lazy">
+        </div>
+        <div class="achievement-content">
+          <h3 class="achievement-title">FinTech Innovators Bootcamp 2025</h3>
+          <p class="achievement-description">Winner of the Syfe problem statment in FinTech Innovators Bootcamp 2025 ideathon.</p>
+          <span class="achievement-year">2025</span>
+        </div>
+      </article>
+
+      <article class="achievement-card" role="button" tabindex="0"
+              aria-label="Open achievement details"
+              data-title="Good progress award 2024"
+              data-description="Received recognition for improvement in academic grades."
+              data-icon="project"
+              data-thumbnails="./images/goodprogress/good_progress_2024.png"
+              data-image="./images/goodprogress/good_progress_2024.png">
+        <div class="achievement-image">
+          <img src="./images/goodprogress/good_progress_2024.png" alt="Award / Scholarship" loading="lazy">
+        </div>
+        <div class="achievement-content">
+          <h3 class="achievement-title">Good progress award 2024</h3>
+          <p class="achievement-description">Grateful to be part of the top 10% of academic improvement in my course.</p>
+          <span class="achievement-year">2024</span>
+        </div>
+      </article>
+
+      <article class="achievement-card" role="button" tabindex="0"
+              aria-label="Open achievement details"
+              data-title="CCA Awards"
+              data-description="Received recognition for improvement in academic grades."
+              data-icon="project"
+              data-thumbnails="./images/cca/cca_merit_2025.png|./images/cca/sports_team_2025.png|./images/cca/colors_2025.png|
+              ./images/cca/merit_2024.png|./images/cca/colors_2024.png|./images/cca/merit_2023.png|./images/cca/sports_team_2023.png|
+              ./images/cca/colors_2023.png"
+              data-image="./images/cca/cca_merit_2025.png">
+        <div class="achievement-image">
+          <img src="./images/cca/cca_merit_2025.png" alt="CCA Awards" loading="lazy">
+        </div>
+        <div class="achievement-content">
+          <h3 class="achievement-title">CCA Awards</h3>
+          <p class="achievement-description">Grateful that my contributions to my CCA has been recognised</p>
+        </div>
+      </article>
+      
+    </div>
+    
+    <!-- Show More Button -->
+    <div class="achievements-toggle-container" style="display: none;">
+      <button id="achievements-show-more-btn" class="btn btn-outline" aria-label="Show more achievements">
+        Show More <i class="fas fa-chevron-down"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Achievement Modal -->
+<div class="modal" id="achievement-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-backdrop" data-close="achievement-modal"></div>
+  <div class="achievement-modal-wrapper">
+    <!-- Left Panel: Image -->
+    <div class="achievement-modal-image-panel">
+      <img id="achievement-modal-image" alt="Achievement Image">
+    </div>
+    
+    <!-- Right Panel: Content -->
+    <div class="achievement-modal-content-panel">
+      <button class="modal-close" aria-label="Close" data-close="achievement-modal">
+        <i class="fas fa-times"></i>
+      </button>
+      
+      <h3 id="achievement-modal-title"></h3>
+      <p id="achievement-modal-description"></p>
+      
+      <div class="achievement-modal-tech-tags" id="achievement-modal-tech-tags"></div>
+      
+      <div class="achievement-modal-thumbnails" id="achievement-modal-thumbnails"></div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section" style="background-color: #0f172a; padding: 6rem 0;">
+    <div class="container">
+      <div class="section-header" style="text-align: center; margin-bottom: 4rem;">
+        <span class="section-subtitle" style="color: #6c757d; font-size: 1.25rem; display: block; margin-bottom: 1rem;">Get in Touch</span>
+        <h2 class="section-title" style="font-size: 2.5rem; margin: 0 0 1.5rem; color: #fff;">Contact Me</h2>
+        <div class="section-divider" style="width: 60px; height: 3px; background: #3b82f6; margin: 0 auto;"></div>
+      </div>
+      
+      <div style="display: flex; flex-wrap: wrap; gap: 2rem; max-width: 1200px; margin: 0 auto; justify-content: space-between;">
+        <!-- Left Column - Contact Me -->
+        <div style="flex: 1; min-width: 300px; background: #1e293b; border-radius: 12px; padding: 2.5rem; border: 1px solid #334155; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <h3 style="color: #fff; font-size: 1.5rem; margin-top: 0; margin-bottom: 2rem; text-align: center; position: relative; display: inline-block; left: 50%; transform: translateX(-50%);">
+            Contact Me
+            <span style="position: absolute; bottom: -10px; left: 0; width: 100%; height: 2px; background: #3b82f6; transition: width 0.3s ease;"></span>
+          </h3>
+          
+          <!-- Email -->
+          <div style="display: flex; align-items: center; margin-bottom: 1.5rem; padding: 1rem; border-radius: 8px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(59, 130, 246, 0.05)'" onmouseout="this.style.background='transparent'">
+            <div style="width: 50px; height: 50px; background: rgba(59, 130, 246, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0; transition: all 0.3s ease;">
+              <i class="fas fa-envelope" style="color: #3b82f6; font-size: 1.25rem;"></i>
+            </div>
+            <div>
+              <h4 style="color: #fff; margin: 0 0 0.25rem; font-size: 1.1rem;">Email</h4>
+              <a href="mailto:leau517@gmail.com" style="color: #94a3b8; text-decoration: none; transition: color 0.3s ease; font-size: 0.95rem;">leau517@gmail.com</a>
+            </div>
+          </div>
+          
+          <!-- Phone -->
+          <div style="display: flex; align-items: center; margin-bottom: 1.5rem; padding: 1rem; border-radius: 8px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(16, 185, 129, 0.05)'" onmouseout="this.style.background='transparent'">
+            <div style="width: 50px; height: 50px; background: rgba(16, 185, 129, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0; transition: all 0.3s ease;">
+              <i class="fas fa-phone" style="color: #10b981; font-size: 1.25rem;"></i>
+            </div>
+            <div>
+              <h4 style="color: #fff; margin: 0 0 0.25rem; font-size: 1.1rem;">Phone</h4>
+              <a href="tel:+6586684726" style="color: #94a3b8; text-decoration: none; transition: color 0.3s ease; font-size: 0.95rem;">+65 8668 4726</a>
+            </div>
+          </div>
+          
+          <!-- Location -->
+          <div style="display: flex; align-items: center; padding: 1rem; border-radius: 8px; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(245, 158, 11, 0.05)'" onmouseout="this.style.background='transparent'">
+            <div style="width: 50px; height: 50px; background: rgba(245, 158, 11, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; flex-shrink: 0; transition: all 0.3s ease;">
+              <i class="fas fa-map-marker-alt" style="color: #f59e0b; font-size: 1.25rem;"></i>
+            </div>
+            <div>
+              <h4 style="color: #fff; margin: 0 0 0.25rem; font-size: 1.1rem;">Location</h4>
+              <p style="color: #94a3b8; margin: 0; font-size: 0.95rem;">Singapore</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Column - Connect With Me -->
+        <div style="display: flex; flex-direction: column; align-items: center; flex: 0 1 100%; max-width: 500px; margin: 0 auto; background: #1e293b; border-radius: 12px; padding: 2.5rem; border: 1px solid #334155; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="text-align: center; width: 100%;">
+            <h3 style="color: #fff; font-size: 1.5rem; margin: 0 auto 2rem; position: relative; display: inline-block; padding-bottom: 0.5rem;">
+              Connect With Me
+              <span style="position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: #3b82f6; transition: width 0.3s ease;"></span>
+            </h3>
+            <p style="color: #94a3b8; margin: 0 auto 2rem; max-width: 300px; transition: transform 0.3s ease;">Let's connect on social media</p>
+          </div>
+          
+          <div style="display: flex; justify-content: center; gap: 1.5rem; margin: 0 auto; flex-wrap: wrap; width: 100%; max-width: 300px;">
+            <!-- GitHub -->
+            <div style="position: relative;">
+              <a href="https://github.com/samuelleau" aria-label="GitHub" target="_blank" rel="noopener noreferrer" class="social-btn" data-platform="GitHub" style="display: inline-flex; align-items: center; justify-content: center; width: 60px; height: 60px; border-radius: 50%; background: #0f172a; color: #fff; font-size: 24px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); text-decoration: none; border: 1px solid #334155; position: relative; overflow: hidden; transform: translateY(0);">
+                <i class="fab fa-github" style="position: relative; z-index: 2; transition: transform 0.3s ease, color 0.3s ease;"></i>
+                <span class="social-tooltip" style="position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); background: #1e293b; color: #e2e8f0; font-size: 0.75rem; padding: 0.25rem 0.75rem; border-radius: 4px; white-space: nowrap; opacity: 0; visibility: hidden; transition: all 0.3s ease; pointer-events: none; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border: 1px solid #334155;">GitHub</span>
+              </a>
+            </div>
+            
+            <!-- LinkedIn -->
+            <div style="position: relative;">
+              <a href="https://www.linkedin.com/in/samuel-leau/" 
+                aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" 
+                class="social-btn" data-platform="LinkedIn"
+                style="display: inline-flex; align-items: center; justify-content: center; 
+                        width: 60px; height: 60px; border-radius: 50%; background: #0f172a; 
+                        color: #fff; font-size: 24px; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); 
+                        text-decoration: none; border: 1px solid #334155; position: relative; 
+                        overflow: hidden; transform: translateY(0);">
+
+                <i class="fa-brands fa-linkedin-in" 
+                  style="position: relative; z-index: 2; transition: transform 0.3s ease, color 0.3s ease;">
+                </i>
+
+                <span class="social-tooltip"
+                      style="position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); 
+                            background: #1e293b; color: #e2e8f0; font-size: 0.75rem; padding: 0.25rem 0.75rem; 
+                            border-radius: 4px; white-space: nowrap; opacity: 0; visibility: hidden; 
+                            transition: all 0.3s ease; pointer-events: none; 
+                            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); border: 1px solid #334155;">
+                  LinkedIn
+                </span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Resume Download Button -->
+          <div style="margin-top: 2.5rem; width: 100%; text-align: center;">
+            <a href="#" download="resume.pdf" class="resume-download-btn" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.75rem; background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%); color: #fff; padding: 0.85rem 2rem; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.3s ease; border: none; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);">
+              <i class="fas fa-download"></i>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Samuel Leau. All rights reserved.</p>
+      <a href="#home" class="footer-top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- Back to top btn -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+    const btt=document.getElementById('backToTop');
+    window.addEventListener('scroll',()=>{ if(window.scrollY>400){btt.classList.add('show')} else {btt.classList.remove('show')}});
+    btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+  </script>
+</body>
+</html>
